@@ -23,10 +23,10 @@ const ProjectItem = ({
           {imgSrc && (
             <Image
               src={imgSrc}
-              width="200"
-              height="200"
+              width="130"
+              height="130"
               alt={name}
-              className="object-cover rounded-lg border-[1px] border-GRAY_LIGHT dark:border-white border-solid w-24 h-24"
+              className="object-cover rounded-lg border-[1px] border-GRAY_LIGHT dark:border-white border-solid w-25 h-25"
             />
           )}
           <div className="flex flex-col gap-2">

@@ -15,12 +15,12 @@
       {
         "id": 1,
         "name": "🚩 Github (github.com/kimkyury)",
-        "href": "https://github.com/honggildong"
+        "href": "https://github.com/kimkyury"
       },
       {
         "id": 2,
         "name": "🕶 Blog (guti-coding.tistory.com)",
-        "href": "https://velog.io/@honggildong"
+        "href": "https://guti-coding.tistory.com"
       }
     ]
   },
@@ -30,13 +30,13 @@
       "id": 0,
       "name": "인제대학교 영재교육원",
       "position": "정보과학 심화/사사반 TA(멘토)",
-      "period": ["2021. 07", "2022. 02"]
+      "period": ["📅 2021. 07", "2022. 02"]
     },
     {
       "id": 1,
       "name": "한국전자연구 통신원(ETRI)",
       "position": "2021 동계 연구연수생",
-      "period": ["2022. 01", "2022.02"]
+      "period": ["📅 2022. 01", "2022.02"]
     }
   ],
 
@@ -44,84 +44,160 @@
     {
       "id": 0,
       "name": "AR Dish",
-      "description": "AR 메뉴판 앱 프로젝트 (4인 팀개발). \n- 기존 일반 음식점의 평면적인 텍스트 중심 정보 확장 목표  \n- 증강현실(AR) 기술을 통해 Andorid-App화면에서 3D음식 콘텐츠를 확인하여 시각적으로 더욱 풍부하고 현실감 있는 정보를 제공하는 UI/UX 구현을 목표",
+      "description": "AR 메뉴판 앱 프로젝트 (4인 팀 개발) \n- 기존 일반 음식점의 평면적인 텍스트 중심 정보 확장 목표  \n- 증강현실(AR) 기술을 통해 Andorid-App화면에서 3D음식 콘텐츠를 확인하여 시각적으로 더욱 풍부하고 현실감 있는 정보를 제공하는 UI/UX 구현을 목표",
       "repoUrl": "https://github.com/kimkyury/ARMenu-Unity-ARContent",
       "isTeam": true,
-      "period": ["2021. 06", "2021. 17"],
+      "period": ["📅 2021. 06", "2021. 17"],
       "stack": ["React.js", "mongoDB", "AndroidStudio", "Unity", "Vuforia"]
     },
     {
       "id": 1,
       "name": "STARTrip",
-      "description": "공공데이터 활용, 국내 각지 여행지 정보 수집 및 사용자별 맞춤 여행코스 추천 서비스 목표",
+      "description": "공공데이터 기반 여행 추천시스템 플랫폼(5인 팀 개발) \n- 공공데이터를 활용하여 국내 각지 여행지 정보 수집 \n- 사용자별 맞춤 여행코스 추천 서비스 목표",
       "repoUrl": "https://github.com/GetSTARTrip",
       "isTeam": true,
-      "period": ["2021. 12", "2022. 05"],
-      "stack": ["JavaScript", "HTML/CSS"]
+      "period": ["📅 2021. 12", "2022. 05"],
+      "stack": ["SpringBoot", "JPA", "PostgreSQL", "MongoDB", "React", "Docker", "Vault"]
     },
     {
       "id": 2,
       "name": "Mirror Me",
-      "description": "프로젝트에 대한 간단한 설명을 적을 수 있습니다. 어떤 프로젝트인지 주제나 강조하고 싶은 부분을 적어보세요.",
+      "description": "가족소통 증진을 위한 AI탑재 Smart Mirror(6인 팀 개발) \n- GoogleCalendar정보 기반 가족관련 일정관리/행동유도 \n- 얼굴/표정/음성 인식 기반 사용자와의 상호작용",
       "repoUrl": "https",
       "isTeam": true,
-      "period": ["2023. 07", "2023.08"],
-      "stack": ["JavaScript", "HTML/CSS"]
+      "period": ["📅 2023. 07", "2023.08"],
+      "stack": [
+        "SpringBoot",
+        "JPA",
+        "MariaDB",
+        "Redis",
+        "Docker",
+        "nginx",
+        "AWS-Ubuntu",
+        "JWT",
+        "OAuth",
+        "React",
+        "Flutter",
+        "GCP",
+        "python",
+        "OpenCV",
+        "TensorFlow",
+        "MediaPipe",
+        "LATTEPANDA"
+      ]
+    }
+  ],
+
+  "skill": [
+    {
+      "id": 0,
+      "name": "SpringBoot",
+      "description": "-RestAPI구현, Junit 테스트 \n-ORM (JPA, Mybatis) \n-Scheduler 이용 \n-Filter및 JWT이용"
+    },
+    {
+      "id": 1,
+      "name": "JavaScript",
+      "description": "-RestAPI 구현 \n- Jest, K6를 통한 테스트"
+    },
+    {
+      "id": 2,
+      "name": "Vue",
+      "description": "-Vuetify 라이브러리 이용 \n-Vuex를 통한 데이터 관리"
+    },
+    {
+      "id": 3,
+      "name": "React",
+      "description": " -MaterialUI/Bootstrap를 통한 화면 구현 \n-Redux를 통한 데이터 관리"
+    },
+    {
+      "id": 4,
+      "name": "MariaDB",
+      "description": "-Schema, Table SQL작성 및 관리 "
+    },
+    {
+      "id": 5,
+      "name": "MySQL",
+      "description": "-Schema, Table SQL작성 및 관리 "
+    },
+    {
+      "id": 6,
+      "name": "Redis",
+      "description": "-Key/Value 기반 데이터관리 \n-Set,List자료형 활용 \n-AOF방식의 데이터 백업 관리"
+    },
+    {
+      "id": 7,
+      "name": "AWS - EC2(ubuntu)",
+      "description": "-프로젝트 배포"
+    },
+    {
+      "id": 8,
+      "name": "Docker",
+      "description": "-프로젝트 버전관리 \n-Docker-Compose를 통한 프로젝트 환경(Java, Database, Private Key)관리"
+    },
+    {
+      "id": 9,
+      "name": "Git",
+      "description": "-GitFlow방식 이용 \n-CommitConvention (Udacity) 적용"
+    },
+    {
+      "id": 10,
+      "name": "JIRA",
+      "description": "-Agile방식의 협업 \n-이슈 발행 및 스프린트 관리"
+    },
+    {
+      "id": 11,
+      "name": "기타 외부 API 활용",
+      "description": "-KakaoMap, ChatGPT, GoogleOAuth, GoogleCalendar, 공공데이터포탈API ... "
     }
   ],
 
   "activity": [
     {
       "id": 0,
-      "name": "첫번째 활동",
-      "period": ["2022. 06", "2022. 08"],
-      "description": "첫번째 활동에 대한 간략한 설명"
+      "name": "(주)한국리서치 주관 데이터 파싱 업무 외주",
+      "period": ["📅 2022. 12", "2023. 01"],
+      "description": "- 한국문화데이터 유출량 검수 작업을 위한 해외사이트 데이터파싱 업무 지원 \n- 타켓사이트 웹페이지(HTML)내 TAG분석 진행"
     },
     {
       "id": 1,
-      "name": "두번째 활동",
-      "period": ["2022. 06", "2022. 08"],
-      "description": "두번째 활동에 대한 간략한 설명"
+      "name": "SAMSUNG 청년 SW아카데미 9기 - 전공자반(JAVA)",
+      "period": ["📅 2023. 01", "now"],
+      "description": "- 취업준비생을 위한 SW역량 향상 교육 \n- JAVA기반 웹 개발 역량강화 \n   알고리즘 역량 강화(Java기반),\n   Backend 역량 강화(Spring/SpringBoot)\n   Front 역량 강화(HTML/CSS/Vue),\n   DB(MySQL) \n   협업 능력 향상(GitLab, JIRA)\n- 전공자&비전공자 팀 빌딩을 통한 자유 주제/기술 프로젝트 진행"
     }
   ],
 
   "education": [
     {
       "id": 0,
-      "name": "첫번째 교육",
-      "period": ["2013. 02", "2020. 02"],
-      "description": "첫번째 교육에 대한 간략한 설명"
-    },
-    {
-      "id": 1,
-      "name": "두번째 교육",
-      "period": ["2013. 02", "2020. 02"],
-      "description": "두번째 교육에 대한 간략한 설명"
+      "name": "인제대학교 (공학인증)컴퓨터공학과 학사과정",
+      "period": ["📅 2019. 03", "2023. 02"],
+      "description": "- 정시 수석 입학, 총 평균학점 4.15 \n- AI융합대학 학생회 홍보부 국장 \n- DB연구실 랩장, AR프로젝트 및 여행큐레이팅 프로젝트 진행"
     }
   ],
 
   "certificate": [
     {
       "id": 0,
-      "name": "TOEIC 1000점",
-      "date": "2019. 07. 28",
-      "organizer": "ETS"
-    },
-    {
-      "id": 1,
-      "name": "OPIC IH",
-      "date": "2019. 07. 28",
-      "organizer": "ETS"
+      "name": "Opic - IM1(Intermediate Mid)",
+      "date": "📅 2023. 07. 02",
+      "organizer": "주관기관: ACTFL"
     }
   ],
 
   "award": [
     {
       "id": 0,
-      "name": "첫번째 수상",
-      "date": "2019. 07. 28",
-      "organizer": "수여기관",
-      "description": "첫번째 수상에 대한 간략한 설명"
+      "name": "인제스타 장학생 4회 연속 선발",
+      "date": "📅 2020-2학기, 2021-1학기, 2021-2학기, 2022-1학기",
+      "organizer": "인제대학교",
+      "description": "대학교내 비교과 우수 참여자 대상, 학년별 50명을 선발하여 장학금 100만원 수여"
+    },
+    {
+      "id": 1,
+      "name": "SSAFY 공통 프로젝트 우수작",
+      "date": "📅 2023.08",
+      "organizer": "SAMSUNG 청년 SW아카데미 (SSAFY)",
+      "description": "SSAFY 9기 교육생 1000여명 대상, 6주간 진행한 팀프로젝트 중 우수 프로젝트로 선발(가족소통 증진을 위한 스마트미러, Mirror Me)  "
     }
   ]
 }

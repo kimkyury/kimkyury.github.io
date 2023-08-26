@@ -1,6 +1,6 @@
 import ContactItem from "../ContactItem";
 import Introduce from "./Introduce";
-import profileImage from "@/assets/images/profile1.png"; // 이미지 파일을 import로 가져옴
+import profileImage from "@/assets/images/profile3.jpg"; // 이미지 파일을 import로 가져옴
 
 import { DataProps } from "@/types";
 
@@ -13,7 +13,7 @@ const Information = ({ information }: Pick<DataProps, "information">) => {
             <img
               src={profileImage.src}
               alt="KGYURY_PROFILE"
-              style={{ width: "150px", height: "165px", borderRadius: "50px" }}
+              style={{ width: "190px", height: "190px", borderRadius: "50px" }}
             />
           </div>
           <div className="flex-3">

@@ -28,6 +28,13 @@ export interface ProjectProps {
   imgSrc?: string;
 }
 
+export interface SkillProps {
+  id: number;
+  name: string;
+  description: string;
+  imgSrc?: string;
+}
+
 export interface AwardProps {
   id: number;
   name: string;
@@ -43,6 +50,7 @@ export interface DataProps {
   information: InformationProps;
   workExperience: WorkExperienceProps[];
   project: ProjectProps[];
+  skill: SkillProps[];
   activity: {
     id: number;
     name: string;
