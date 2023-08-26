@@ -11,8 +11,8 @@ module.exports = {
       // NOTE: 본 템플릿은 대부분이 모노톤으로 이루어져 있습니다. primary 컬러만 수정하여 사용하시는 것을 권장드립니다.
       colors: {
         GRAY_LIGHT: "#495057",
-        GRAY: "#495057",
-        GRAY_HEAVY: "#495057",
+        GRAY: "#adb5bd",
+        GRAY_HEAVY: "#868e96",
         GRAY_EXTRAHEAVY: "#495057",
         BLACK: "#f1f3f5",
         /**
