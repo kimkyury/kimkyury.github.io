@@ -26,7 +26,7 @@ const ProjectItem = ({
               width="130"
               height="130"
               alt={name}
-              className="object-cover rounded-lg border-[1px] border-GRAY_LIGHT dark:border-white border-solid w-25 h-25"
+              className="object-cover rounded-lg border-[1px] border-GRAY_LIGHT border-solid w-25 h-25"
             />
           )}
           <div className="flex flex-col gap-2">
@@ -49,7 +49,7 @@ const ProjectItem = ({
             {stack.map((stack) => (
               <span
                 key={stack}
-                className=" bg-BLACK dark:bg-white  py-[2px] px-1.5 rounded-md text-xs font-medium font-mono whitespace-nowrap text-black dark:text-BLACK"
+                className=" bg-BLACK py-[2px] px-1.5 rounded-md text-xs font-medium font-mono whitespace-nowrap text-black"
               >
                 {stack}
               </span>

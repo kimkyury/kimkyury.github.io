@@ -3,7 +3,6 @@
 @tailwind utilities;
 
 @layer base {
-  /* styles/globals.css */
   body {
     background-color: #212529;
   }
@@ -28,7 +27,7 @@
   }
 
   .markdown a {
-    @apply font-mono bg-GRAY_HEAVY dark:bg-white py-[2px] px-1.5 rounded-md text-xs text-white dark:text-BLACK hover:bg-BLACK dark:hover:bg-GRAY_HEAVY;
+    @apply font-mono bg-GRAY_HEAVY py-[2px] px-1.5 rounded-md text-xs text-white hover:bg-BLACK;
   }
 
   .markdown h1,
@@ -50,11 +49,11 @@
   }
 
   code {
-    @apply bg-GRAY_LIGHT dark:bg-GRAY_EXTRAHEAVY  py-[2px] px-1.5 rounded-md text-xs font-medium text-PRIMARY_HEAVY dark:text-PRIMARY;
+    @apply bg-GRAY_LIGHT py-[2px] px-1.5 rounded-md text-xs font-medium text-PRIMARY_HEAVY;
   }
 
   blockquote {
-    @apply bg-GRAY_LIGHT py-4 px-6 my-2 rounded-md w-full dark:bg-GRAY_EXTRAHEAVY;
+    @apply bg-GRAY_LIGHT py-4 px-6 my-2 rounded-md w-full;
   }
 
   ul,

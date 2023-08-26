@@ -6,7 +6,7 @@ const Links = ({ repoUrl, webUrl }: { repoUrl: string; webUrl: string | undefine
     <div className="flex gap-1">
       <a target="_blank" rel="noreferrer" href={repoUrl} className="w-fit">
         {" "}
-        <GithubIcon className="hover:text-PRIMARY_HEAVY dark:hover:text-GRAY_HEAVY md:fill-current fill-BLACK dark:fill-white" />
+        <GithubIcon className="hover:text-PRIMARY_HEAVY md:fill-current fill-BLACK" />
       </a>
       {/* {webUrl && (
         <a target="_blank" rel="noreferrer" href={webUrl} className="w-fit">

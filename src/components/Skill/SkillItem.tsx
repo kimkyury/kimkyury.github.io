@@ -12,7 +12,7 @@ const SkillItem = ({ name, description, imgSrc }: SkillProps) => {
             height="70"
             style={{ borderRadius: "100px" }}
             alt={name}
-            className="object-cover rounded-lg border-[1px] border-GRAY_LIGHT dark:border-white border-solid w-25 h-25"
+            className="object-cover rounded-lg border-[1px] border-GRAY_LIGHT border-solid w-25 h-25"
           />
         )}
         <h4>{name}</h4>
