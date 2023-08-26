@@ -1,0 +1,127 @@
+{
+  "resumeTitle": {
+    "title": "KIM KYURI"
+  },
+
+  "information": {
+    "name": "김규리",
+    "contact": [
+      {
+        "id": 0,
+        "name": "💌 Email (mandarining0918@gmail.com) ",
+        "href": "mandarining0918@gmail.com",
+        "isEmail": true
+      },
+      {
+        "id": 1,
+        "name": "🚩 Github (github.com/kimkyury)",
+        "href": "https://github.com/honggildong"
+      },
+      {
+        "id": 2,
+        "name": "🕶 Blog (guti-coding.tistory.com)",
+        "href": "https://velog.io/@honggildong"
+      }
+    ]
+  },
+
+  "workExperience": [
+    {
+      "id": 0,
+      "name": "인제대학교 영재교육원",
+      "position": "정보과학 심화/사사반 TA(멘토)",
+      "period": ["2021. 07", "2022. 02"]
+    },
+    {
+      "id": 1,
+      "name": "한국전자연구 통신원(ETRI)",
+      "position": "2021 동계 연구연수생",
+      "period": ["2022. 01", "2022.02"]
+    }
+  ],
+
+  "project": [
+    {
+      "id": 0,
+      "name": "AR Dish",
+      "description": "AR 메뉴판 앱 프로젝트 (4인 팀개발). \n- 기존 일반 음식점의 평면적인 텍스트 중심 정보 확장 목표  \n- 증강현실(AR) 기술을 통해 Andorid-App화면에서 3D음식 콘텐츠를 확인하여 시각적으로 더욱 풍부하고 현실감 있는 정보를 제공하는 UI/UX 구현을 목표",
+      "repoUrl": "https://github.com/kimkyury/ARMenu-Unity-ARContent",
+      "isTeam": true,
+      "period": ["2021. 06", "2021. 17"],
+      "stack": ["React.js", "mongoDB", "AndroidStudio", "Unity", "Vuforia"]
+    },
+    {
+      "id": 1,
+      "name": "STARTrip",
+      "description": "공공데이터 활용, 국내 각지 여행지 정보 수집 및 사용자별 맞춤 여행코스 추천 서비스 목표",
+      "repoUrl": "https://github.com/GetSTARTrip",
+      "isTeam": true,
+      "period": ["2021. 12", "2022. 05"],
+      "stack": ["JavaScript", "HTML/CSS"]
+    },
+    {
+      "id": 2,
+      "name": "Mirror Me",
+      "description": "프로젝트에 대한 간단한 설명을 적을 수 있습니다. 어떤 프로젝트인지 주제나 강조하고 싶은 부분을 적어보세요.",
+      "repoUrl": "https",
+      "isTeam": true,
+      "period": ["2023. 07", "2023.08"],
+      "stack": ["JavaScript", "HTML/CSS"]
+    }
+  ],
+
+  "activity": [
+    {
+      "id": 0,
+      "name": "첫번째 활동",
+      "period": ["2022. 06", "2022. 08"],
+      "description": "첫번째 활동에 대한 간략한 설명"
+    },
+    {
+      "id": 1,
+      "name": "두번째 활동",
+      "period": ["2022. 06", "2022. 08"],
+      "description": "두번째 활동에 대한 간략한 설명"
+    }
+  ],
+
+  "education": [
+    {
+      "id": 0,
+      "name": "첫번째 교육",
+      "period": ["2013. 02", "2020. 02"],
+      "description": "첫번째 교육에 대한 간략한 설명"
+    },
+    {
+      "id": 1,
+      "name": "두번째 교육",
+      "period": ["2013. 02", "2020. 02"],
+      "description": "두번째 교육에 대한 간략한 설명"
+    }
+  ],
+
+  "certificate": [
+    {
+      "id": 0,
+      "name": "TOEIC 1000점",
+      "date": "2019. 07. 28",
+      "organizer": "ETS"
+    },
+    {
+      "id": 1,
+      "name": "OPIC IH",
+      "date": "2019. 07. 28",
+      "organizer": "ETS"
+    }
+  ],
+
+  "award": [
+    {
+      "id": 0,
+      "name": "첫번째 수상",
+      "date": "2019. 07. 28",
+      "organizer": "수여기관",
+      "description": "첫번째 수상에 대한 간략한 설명"
+    }
+  ]
+}
