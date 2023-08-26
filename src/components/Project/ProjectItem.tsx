@@ -49,7 +49,7 @@ const ProjectItem = ({
             {stack.map((stack) => (
               <span
                 key={stack}
-                className=" bg-BLACK dark:bg-white  py-[2px] px-1.5 rounded-md text-xs font-medium font-mono whitespace-nowrap text-white dark:text-BLACK"
+                className=" bg-BLACK dark:bg-white  py-[2px] px-1.5 rounded-md text-xs font-medium font-mono whitespace-nowrap text-black dark:text-BLACK"
               >
                 {stack}
               </span>

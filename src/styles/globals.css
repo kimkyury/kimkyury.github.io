@@ -3,6 +3,11 @@
 @tailwind utilities;
 
 @layer base {
+  /* styles/globals.css */
+  body {
+    background-color: #212529;
+  }
+
   h1 {
     @apply font-semibold text-5xl py-2;
   }

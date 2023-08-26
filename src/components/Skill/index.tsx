@@ -7,7 +7,7 @@ const Skill = ({ skill }: Pick<DataProps, "skill">) => {
   return (
     <>
       <div>
-        <SectionTitle>Skills</SectionTitle>
+        <SectionTitle>⚙️ Skills</SectionTitle>
         <div className="grid grid-cols-3 gap-8">
           {[...skill].map((skill) => (
             <SkillItem key={skill.id} {...skill} />

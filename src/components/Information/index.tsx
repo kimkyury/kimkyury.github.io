@@ -13,7 +13,7 @@ const Information = ({ information }: Pick<DataProps, "information">) => {
             <img
               src={profileImage.src}
               alt="KGYURY_PROFILE"
-              style={{ width: "190px", height: "190px", borderRadius: "50px" }}
+              style={{ width: "200px", height: "200px", borderRadius: "50px" }}
             />
           </div>
           <div className="flex-3">
@@ -24,6 +24,8 @@ const Information = ({ information }: Pick<DataProps, "information">) => {
               <span className="text-PRIMARY font-semibold">{information.name}</span>
               입니다.
             </h1>
+            <br />
+            <div> 📞 010-5375-3537</div>
             <div className="flex gap-1">
               {information.contact.map((contact) => (
                 <ContactItem
