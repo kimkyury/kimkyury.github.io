@@ -73,17 +73,16 @@
         "Redis",
         "Docker",
         "nginx",
-        "AWS-Ubuntu",
-        "JWT",
+        "AWS-EC2",
         "OAuth",
         "React",
         "Flutter",
         "GCP",
-        "python",
+        "Python",
         "OpenCV",
         "TensorFlow",
         "MediaPipe",
-        "LATTEPANDA"
+        "LattePanda"
       ]
     }
   ],
