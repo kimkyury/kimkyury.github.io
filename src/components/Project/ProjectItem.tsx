@@ -30,7 +30,7 @@ const ProjectItem = ({
             />
           )}
           <div className="flex flex-col gap-2">
-            <div className="w-48">
+            <div className="w-44">
               <h3>{name}</h3>
               <div className="flex flex-col">
                 <span>{`${period[0]} - ${period[1]}`}</span>

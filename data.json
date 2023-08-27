@@ -92,62 +92,62 @@
     {
       "id": 0,
       "name": "SpringBoot",
-      "description": "-RestAPI구현, Junit 테스트 \n-ORM (JPA, Mybatis) \n-Scheduler 이용 \n-Filter및 JWT이용"
+      "description": "- RestAPI구현, Junit 테스트 \n- ORM (JPA, Mybatis) \n- Scheduler 이용 \n- Filter및 JWT이용"
     },
     {
       "id": 1,
       "name": "JavaScript",
-      "description": "-RestAPI 구현 \n- Jest, K6를 통한 테스트"
+      "description": "- RestAPI 구현 \n- Jest, K6를 통한 테스트"
     },
     {
       "id": 2,
       "name": "Vue",
-      "description": "-Vuetify 라이브러리 이용 \n-Vuex를 통한 데이터 관리"
+      "description": "- Vuetify 라이브러리 이용 \n- Vuex를 통한 데이터 관리"
     },
     {
       "id": 3,
       "name": "React",
-      "description": " -MaterialUI/Bootstrap를 통한 화면 구현 \n-Redux를 통한 데이터 관리"
+      "description": " - MaterialUI/Bootstrap를 통한 화면 구현 \n- Redux를 통한 데이터 관리"
     },
     {
       "id": 4,
       "name": "MariaDB",
-      "description": "-Schema, Table SQL작성 및 관리 "
+      "description": "- Schema, Table SQL작성 및 관리 "
     },
     {
       "id": 5,
       "name": "MySQL",
-      "description": "-Schema, Table SQL작성 및 관리 "
+      "description": "- Schema, Table SQL작성 및 관리 "
     },
     {
       "id": 6,
       "name": "Redis",
-      "description": "-Key/Value 기반 데이터관리 \n-Set,List자료형 활용 \n-AOF방식의 데이터 백업 관리"
+      "description": "- Key/Value 기반 데이터관리 \n- Set, List자료형 활용 \n- AOF 방식의 데이터 백업 관리"
     },
     {
       "id": 7,
-      "name": "AWS - EC2(ubuntu)",
-      "description": "-프로젝트 배포"
+      "name": "EC2(ubuntu)",
+      "description": "- 프로젝트 배포"
     },
     {
       "id": 8,
       "name": "Docker",
-      "description": "-프로젝트 버전관리 \n-Docker-Compose를 통한 프로젝트 환경(Java, Database, Private Key)관리"
+      "description": "- 프로젝트 버전관리 \n- Docker-Compose를 통한 프로젝트 환경(Java, Database, Private Key)관리"
     },
     {
       "id": 9,
       "name": "Git",
-      "description": "-GitFlow방식 이용 \n-CommitConvention (Udacity) 적용"
+      "description": "- GitFlow방식 이용 \n- CommitConvention (Udacity) 적용"
     },
     {
       "id": 10,
       "name": "JIRA",
-      "description": "-Agile방식의 협업 \n-이슈 발행 및 스프린트 관리"
+      "description": "- Agile방식의 협업 \n- 이슈 발행 및 스프린트 관리"
     },
     {
       "id": 11,
       "name": "기타 외부 API 활용",
-      "description": "-KakaoMap, ChatGPT, GoogleOAuth, GoogleCalendar, 공공데이터포탈API ... "
+      "description": "- KakaoMap, ChatGPT, GoogleOAuth, GoogleCalendar, 공공데이터포탈API ... "
     }
   ],
 
